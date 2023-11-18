@@ -113,81 +113,27 @@ export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-center p-12 pb-32">
             <Head>
-                <title>ZuAuth Example</title>
+                <title>Tupac Battlefrogz</title>
                 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
             </Head>
             <div className="max-w-4xl w-full mx-auto">
                 <div className="flex justify-center">
-                    <Image width="150" height="150" alt="ZuAuth Icon" src="/light-icon.png" />
+                    <Image width="512" height="512" alt="ZuAuth Icon" src="/logo.png" />
                 </div>
 
                 <h1 className="my-4 text-2xl font-semibold text-center">
-                    ZuAuth Example
+                    Battlefrogz
                 </h1>
-
-                <p className="my-8 text-justify">
-                    This demo illustrates how the{" "}
-                    <a
-                        className="text-blue-600 visited:text-purple-600"
-                        href="http://npmjs.com/package/zuauth"
-                        target="_blank"
-                    >
-                        <b>zuauth</b>
-                    </a>{" "}
-                    NPM package can be used in a simple authentication system with{" "}
-                    <a className="text-blue-600 visited:text-purple-600" href="https://nextjs.org/" target="_blank">
-                        NextJS
-                    </a>{" "}
-                    and{" "}
-                    <a
-                        className="text-blue-600 visited:text-purple-600"
-                        href="https://github.com/vvo/iron-session"
-                        target="_blank"
-                    >
-                        IronSession
-                    </a>
-                    . You can choose which ticket fields to reveal during the authentication process by enabling the Developer Mode.
-                    We kindly invite you to check the{" "}
-                    <a
-                        className="text-blue-600 visited:text-purple-600"
-                        href="https://github.com/cedoor/zuauth#readme"
-                        target="_blank"
-                    >
-                        README file
-                    </a>{" "}
-                    in the repository to learn more about the code.
-                </p>
 
                 <div className="my-8 text-center">
                     <button
                         className="bg-blue-800 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
                         onClick={!user ? login : logout}
                     >
-                        {!user ? "Login" : "Log out"}
+                        {!user ? "Choose your frog" : "Log out"}
                     </button>
                 </div>
 
-                {!user &&
-                    <>
-                        <div className="my-8 text-center flex flex-col items-center">
-                            <p className="mt-2 text-center">Developer Mode</p>
-                            <Toggle
-                                checked={developerMode}
-                                onToggle={handleSetDeveloperMode}
-                            />
-                        </div>
-
-                        <div style={{ height: "300px" }}>
-                            {developerMode && (
-                                <DeveloperPanel
-                                    fieldsToReveal={ticketFieldsToReveal}
-                                    onToggleField={handleToggleField}
-                                    disabled={!!user}
-                                />
-                            )}
-                        </div>
-                    </>
-                }
 
                 {user && <div className="my-8 text-center">
                     <DisplayRevealedFields user={user} revealedFields={ticketFieldsToReveal} /> </div>}

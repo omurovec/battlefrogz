@@ -1296,7 +1296,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18":
+"@types/react@npm:*, @types/react@npm:^18.2.37":
   version: 18.2.37
   resolution: "@types/react@npm:18.2.37"
   dependencies:
@@ -6188,7 +6188,7 @@ __metadata:
     "@pcd/util": "npm:^0.2.0"
     "@pcd/zk-eddsa-event-ticket-pcd": "npm:^0.2.1"
     "@types/node": "npm:^20"
-    "@types/react": "npm:^18"
+    "@types/react": "npm:^18.2.37"
     "@types/react-dom": "npm:^18"
     "@types/react-is": "npm:^18"
     autoprefixer: "npm:^10.0.1"
@@ -6199,7 +6199,7 @@ __metadata:
     next: "npm:14.0.1"
     pcd: "npm:^1.0.0"
     postcss: "npm:^8"
-    react: "npm:^18"
+    react: "npm:^18.2.0"
     react-dom: "npm:^18"
     react-icons: "npm:^4.11.0"
     react-is: "npm:^18.2.0"
