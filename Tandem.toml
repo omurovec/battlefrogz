@@ -1,0 +1,4 @@
+[handlers.main]
+frog_1 = "Frog { jmp: 0u8, spd: 1u8, int: 2u8, bty: 3u8 }"
+frog_2 = "Frog { jmp: 1u8, spd: 2u8, int: 3u8, bty: 4u8 }"
+frog_3 = "Frog { jmp: 10u8, spd: 10u8, int: 10u8, bty: 10u8 }"
