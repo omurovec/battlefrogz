@@ -4,9 +4,7 @@ import Image from "next/image"
 import { useEffect, useState } from "react"
 import { useZuAuth } from "zuauth"
 import { EdDSATicketFieldsToReveal } from "@pcd/zk-eddsa-event-ticket-pcd"
-import Toggle from "@/components/Toggle"
 import DisplayRevealedFields from "@/components/DisplayRevealedFields"
-import DeveloperPanel from "@/components/DeveloperPanel"
 
 const defaultSetOfTicketFieldsToReveal: EdDSATicketFieldsToReveal = {
     revealTicketId: false,
@@ -93,22 +91,6 @@ export default function Home() {
         });
     };
 
-    const handleSetDeveloperMode = () => {
-        setDeveloperMode(value => {
-            const newValue = !value
-
-            if (newValue) {
-                localStorage.setItem("ticketFieldsToReveal", JSON.stringify(ticketFieldsToReveal));
-            } else {
-                setTicketFieldsToReveal(defaultSetOfTicketFieldsToReveal)
-                localStorage.removeItem("ticketFieldsToReveal")
-            }
-
-            localStorage.setItem("developerMode", JSON.stringify(newValue))
-
-            return newValue
-        })
-    }
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-center p-12 pb-32">
