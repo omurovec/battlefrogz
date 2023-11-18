@@ -12,7 +12,7 @@ This 2PC setup ensures that the circuit is performed trustlessly and neither par
 
 ## Further Improvements
 
-To improve this system and make it truly trustless, the next steps would be to verify the EdDSA signature of the Frog PCDs and wrap this along with the garbling and oblivious transfer steps.
+To improve this system and make it truly trustless, the next steps would be to verify the EdDSA signature of the Frog PCDs and wrap this along with the garbling and oblivious transfer steps in a zkSNARK.
 
 ## Usage
 
