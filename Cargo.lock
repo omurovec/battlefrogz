@@ -808,6 +808,7 @@ dependencies = [
  "ncurses",
  "serde",
  "serde_json",
+ "tandem",
  "tandem_http_client",
  "tandem_http_server",
  "text2art",
@@ -1672,6 +1673,7 @@ dependencies = [
 [[package]]
 name = "tandem"
 version = "0.3.0"
+source = "git+https://github.com/sine-fdn/tandem?rev=90f8c04#90f8c04fd89c69a3f9dab0f9cecea4a892e3624a"
 dependencies = [
  "bincode",
  "blake3",
@@ -1684,6 +1686,7 @@ dependencies = [
 [[package]]
 name = "tandem_garble_interop"
 version = "0.3.0"
+source = "git+https://github.com/sine-fdn/tandem?rev=90f8c04#90f8c04fd89c69a3f9dab0f9cecea4a892e3624a"
 dependencies = [
  "garble_lang",
  "tandem",
@@ -1692,6 +1695,7 @@ dependencies = [
 [[package]]
 name = "tandem_http_client"
 version = "0.3.0"
+source = "git+https://github.com/sine-fdn/tandem?rev=90f8c04#90f8c04fd89c69a3f9dab0f9cecea4a892e3624a"
 dependencies = [
  "anyhow",
  "bincode",
@@ -1714,6 +1718,7 @@ dependencies = [
 [[package]]
 name = "tandem_http_server"
 version = "0.3.0"
+source = "git+https://github.com/sine-fdn/tandem?rev=90f8c04#90f8c04fd89c69a3f9dab0f9cecea4a892e3624a"
 dependencies = [
  "bincode",
  "blake3",
