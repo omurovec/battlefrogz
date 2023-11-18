@@ -79,19 +79,6 @@ export default function Home() {
         setDeveloperMode(false)
     }
 
-    const handleToggleField = (fieldToReveal: keyof EdDSATicketFieldsToReveal) => {
-        setTicketFieldsToReveal(prevState => {
-            const fieldsToReveal = {
-                ...prevState,
-                [fieldToReveal]: !prevState[fieldToReveal]
-            };
-
-            localStorage.setItem("ticketFieldsToReveal", JSON.stringify(fieldsToReveal));
-            return fieldsToReveal;
-        });
-    };
-
-
     return (
         <main className="flex min-h-screen flex-col items-center justify-center p-12 pb-32">
             <Head>
