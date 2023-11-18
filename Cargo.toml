@@ -10,6 +10,7 @@ ncurses = "5.101.0"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 tokio = { version = "1", features = ["full"] }
-tandem_http_client = { path = "./tandem/tandem_http_client", features = ["bin"] }
-tandem_http_server = { path = "./tandem/tandem_http_server", features = ["bin"] }
+tandem_http_client = { git = "https://github.com/sine-fdn/tandem", rev = "90f8c04", features = ["bin"] }
+tandem_http_server = { git = "https://github.com/sine-fdn/tandem", rev = "90f8c04", features = ["bin"] }
+tandem = { git = "https://github.com/sine-fdn/tandem", rev = "90f8c04" }
 text2art = "1.0.2"
