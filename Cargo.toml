@@ -1,0 +1,12 @@
+[package]
+name = "istanbul"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mpz-circuits = { path = "./mpz/mpz-circuits" }
+mpz-circuits-macros = { path = "./mpz/mpz-circuits-macros" }
+mpz-garble = { path = "./mpz/garble/mpz-garble" }
+mpz-ot = { path = "./mpz/ot/mpz-ot" }

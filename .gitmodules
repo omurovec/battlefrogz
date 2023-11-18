@@ -1,0 +1,3 @@
+[submodule "mpz"]
+	path = mpz
+	url = git@github.com:privacy-scaling-explorations/mpz.git
