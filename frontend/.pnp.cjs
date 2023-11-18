@@ -26,6 +26,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@pcd/eddsa-frog-pcd", "npm:0.0.1"],\
           ["@pcd/eddsa-ticket-pcd", "npm:0.3.0"],\
           ["@pcd/pcd-types", "npm:0.8.0"],\
           ["@pcd/semaphore-identity-pcd", "npm:0.8.0"],\
@@ -213,10 +214,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e1e03be15735fdbc8168627e7c153b5c8c7f6646e27bf547bd1be5e2aa2ca50de2ad959cd7edfe16bd2d7d0349a054867b85f72de2ac7a64a4db1a772154bfac#npm:7.23.3", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-jsx-virtual-dc31b35e57/5/.yarn/berry/cache/@babel-plugin-syntax-jsx-npm-7.23.3-9ff8fd9153-10c0.zip/node_modules/@babel/plugin-syntax-jsx/",\
+      ["virtual:9ab7abba17974f7af844c7ab82b883d4703911151240b74e3a289a83ffd283da64d42c554ae89a3cf8e67619776e066f6cbcd6bbf64c38b3190e67263864d359#npm:7.23.3", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-jsx-virtual-3650dbde67/5/.yarn/berry/cache/@babel-plugin-syntax-jsx-npm-7.23.3-9ff8fd9153-10c0.zip/node_modules/@babel/plugin-syntax-jsx/",\
         "packageDependencies": [\
-          ["@babel/plugin-syntax-jsx", "virtual:e1e03be15735fdbc8168627e7c153b5c8c7f6646e27bf547bd1be5e2aa2ca50de2ad959cd7edfe16bd2d7d0349a054867b85f72de2ac7a64a4db1a772154bfac#npm:7.23.3"],\
+          ["@babel/plugin-syntax-jsx", "virtual:9ab7abba17974f7af844c7ab82b883d4703911151240b74e3a289a83ffd283da64d42c554ae89a3cf8e67619776e066f6cbcd6bbf64c38b3190e67263864d359#npm:7.23.3"],\
           ["@babel/core", null],\
           ["@babel/helper-plugin-utils", "npm:7.22.5"],\
           ["@types/babel__core", null]\
@@ -1069,7 +1070,41 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@pcd/eddsa-frog-pcd", [\
+      ["npm:0.0.1", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@pcd-eddsa-frog-pcd-npm-0.0.1-99005f2074-10c0.zip/node_modules/@pcd/eddsa-frog-pcd/",\
+        "packageDependencies": [\
+          ["@pcd/eddsa-frog-pcd", "npm:0.0.1"],\
+          ["@pcd/eddsa-pcd", "npm:0.2.2"],\
+          ["@pcd/passport-ui", "npm:0.7.2"],\
+          ["@pcd/pcd-types", "npm:0.7.2"],\
+          ["@pcd/util", "npm:0.1.2"],\
+          ["chai", "npm:4.3.10"],\
+          ["json-bigint", "npm:1.0.0"],\
+          ["lodash", "npm:4.17.21"],\
+          ["react", "npm:18.2.0"],\
+          ["styled-components", "virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11"],\
+          ["uuid", "npm:9.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@pcd/eddsa-pcd", [\
+      ["npm:0.2.2", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@pcd-eddsa-pcd-npm-0.2.2-4553923ec2-10c0.zip/node_modules/@pcd/eddsa-pcd/",\
+        "packageDependencies": [\
+          ["@pcd/eddsa-pcd", "npm:0.2.2"],\
+          ["@pcd/passport-ui", "npm:0.7.2"],\
+          ["@pcd/pcd-types", "npm:0.7.2"],\
+          ["@pcd/util", "npm:0.1.2"],\
+          ["chai", "npm:4.3.10"],\
+          ["circomlibjs", "npm:0.1.7"],\
+          ["react", "npm:18.2.0"],\
+          ["styled-components", "virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11"],\
+          ["uuid", "npm:9.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.3.0", {\
         "packageLocation": "../../../../.yarn/berry/cache/@pcd-eddsa-pcd-npm-0.3.0-3c20d89556-10c0.zip/node_modules/@pcd/eddsa-pcd/",\
         "packageDependencies": [\
@@ -1080,7 +1115,7 @@ const RAW_RUNTIME_STATE =
           ["chai", "npm:4.3.10"],\
           ["circomlibjs", "npm:0.1.7"],\
           ["react", "npm:18.2.0"],\
-          ["styled-components", "virtual:490b7a3d4aff7edb804ed44137b1810a9c8e1d961bf25e806d5f6760d326fa065c8638fc02164f7ab01679af781a9a0aa34ab64161e109ad5b16432e58539bfa#npm:5.3.11"],\
+          ["styled-components", "virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11"],\
           ["uuid", "npm:9.0.1"]\
         ],\
         "linkType": "HARD"\
@@ -1099,13 +1134,24 @@ const RAW_RUNTIME_STATE =
           ["json-bigint", "npm:1.0.0"],\
           ["lodash", "npm:4.17.21"],\
           ["react", "npm:18.2.0"],\
-          ["styled-components", "virtual:490b7a3d4aff7edb804ed44137b1810a9c8e1d961bf25e806d5f6760d326fa065c8638fc02164f7ab01679af781a9a0aa34ab64161e109ad5b16432e58539bfa#npm:5.3.11"],\
+          ["styled-components", "virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11"],\
           ["uuid", "npm:9.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@pcd/passport-ui", [\
+      ["npm:0.7.2", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@pcd-passport-ui-npm-0.7.2-5053bdd20c-10c0.zip/node_modules/@pcd/passport-ui/",\
+        "packageDependencies": [\
+          ["@pcd/passport-ui", "npm:0.7.2"],\
+          ["pako", "npm:2.1.0"],\
+          ["qr-image", "npm:3.2.0"],\
+          ["react", "npm:18.2.0"],\
+          ["styled-components", "virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.8.0", {\
         "packageLocation": "../../../../.yarn/berry/cache/@pcd-passport-ui-npm-0.8.0-490b7a3d4a-10c0.zip/node_modules/@pcd/passport-ui/",\
         "packageDependencies": [\
@@ -1113,12 +1159,19 @@ const RAW_RUNTIME_STATE =
           ["pako", "npm:2.1.0"],\
           ["qr-image", "npm:3.2.0"],\
           ["react", "npm:18.2.0"],\
-          ["styled-components", "virtual:490b7a3d4aff7edb804ed44137b1810a9c8e1d961bf25e806d5f6760d326fa065c8638fc02164f7ab01679af781a9a0aa34ab64161e109ad5b16432e58539bfa#npm:5.3.11"]\
+          ["styled-components", "virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@pcd/pcd-types", [\
+      ["npm:0.7.2", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@pcd-pcd-types-npm-0.7.2-586bdba0fb-10c0.zip/node_modules/@pcd/pcd-types/",\
+        "packageDependencies": [\
+          ["@pcd/pcd-types", "npm:0.7.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.8.0", {\
         "packageLocation": "../../../../.yarn/berry/cache/@pcd-pcd-types-npm-0.8.0-6d94cf71c4-10c0.zip/node_modules/@pcd/pcd-types/",\
         "packageDependencies": [\
@@ -1138,7 +1191,7 @@ const RAW_RUNTIME_STATE =
           ["@semaphore-protocol/identity", "npm:3.15.0"],\
           ["json-bigint", "npm:1.0.0"],\
           ["react", "npm:18.2.0"],\
-          ["styled-components", "virtual:490b7a3d4aff7edb804ed44137b1810a9c8e1d961bf25e806d5f6760d326fa065c8638fc02164f7ab01679af781a9a0aa34ab64161e109ad5b16432e58539bfa#npm:5.3.11"],\
+          ["styled-components", "virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11"],\
           ["uuid", "npm:9.0.1"]\
         ],\
         "linkType": "HARD"\
@@ -1158,13 +1211,23 @@ const RAW_RUNTIME_STATE =
           ["@semaphore-protocol/proof", "virtual:3550eea9a6e3a79fc9016a78169c6cf05fec71316a1b7d8c69e04d79b5d4a8674b7111f9572478092bf81b153d733066c8df2f50058f046ad3d2240213ade9b1#npm:3.15.0"],\
           ["json-bigint", "npm:1.0.0"],\
           ["react", "npm:18.2.0"],\
-          ["styled-components", "virtual:490b7a3d4aff7edb804ed44137b1810a9c8e1d961bf25e806d5f6760d326fa065c8638fc02164f7ab01679af781a9a0aa34ab64161e109ad5b16432e58539bfa#npm:5.3.11"],\
+          ["styled-components", "virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11"],\
           ["uuid", "npm:9.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@pcd/util", [\
+      ["npm:0.1.2", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@pcd-util-npm-0.1.2-ef427d2608-10c0.zip/node_modules/@pcd/util/",\
+        "packageDependencies": [\
+          ["@pcd/util", "npm:0.1.2"],\
+          ["chai", "npm:4.3.10"],\
+          ["js-sha256", "npm:0.10.1"],\
+          ["uuid", "npm:9.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.2.0", {\
         "packageLocation": "../../../../.yarn/berry/cache/@pcd-util-npm-0.2.0-7e823643b7-10c0.zip/node_modules/@pcd/util/",\
         "packageDependencies": [\
@@ -2185,7 +2248,7 @@ const RAW_RUNTIME_STATE =
           ["babel-plugin-styled-components", "virtual:09cbf2adba2a2a3ac7d06f56034ade8ea62f8d1b9650283463529c8c7adb4f322d6f9cd3a13e47d32b7ad31f8776a19994892b4a85fd962804755147ca564cfb#npm:2.1.4"],\
           ["@babel/helper-annotate-as-pure", "npm:7.22.5"],\
           ["@babel/helper-module-imports", "npm:7.22.15"],\
-          ["@babel/plugin-syntax-jsx", "virtual:e1e03be15735fdbc8168627e7c153b5c8c7f6646e27bf547bd1be5e2aa2ca50de2ad959cd7edfe16bd2d7d0349a054867b85f72de2ac7a64a4db1a772154bfac#npm:7.23.3"],\
+          ["@babel/plugin-syntax-jsx", "virtual:9ab7abba17974f7af844c7ab82b883d4703911151240b74e3a289a83ffd283da64d42c554ae89a3cf8e67619776e066f6cbcd6bbf64c38b3190e67263864d359#npm:7.23.3"],\
           ["@types/styled-components", null],\
           ["lodash", "npm:4.17.21"],\
           ["picomatch", "npm:2.3.1"],\
@@ -2197,17 +2260,17 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:4dc43ed16350a921963c57bb1d401c59c8e7a658387b95fc6ad4ae4985ee40cf66f3d0c345d71b88a559c8dda745ab8d4f13d4163b75e714232f8c12cfce3f12#npm:2.1.4", {\
-        "packageLocation": "./.yarn/__virtual__/babel-plugin-styled-components-virtual-e1e03be157/5/.yarn/berry/cache/babel-plugin-styled-components-npm-2.1.4-40cd8c2d2b-10c0.zip/node_modules/babel-plugin-styled-components/",\
+      ["virtual:ec36a8dcc3406ce192d06e3ace03cdbda0bbbb2f7907f0dee644fbde4d4385ea1ea3287f16f7d1010d51daec0905afbb68b1088481e90431ca3435dc75d9ea31#npm:2.1.4", {\
+        "packageLocation": "./.yarn/__virtual__/babel-plugin-styled-components-virtual-9ab7abba17/5/.yarn/berry/cache/babel-plugin-styled-components-npm-2.1.4-40cd8c2d2b-10c0.zip/node_modules/babel-plugin-styled-components/",\
         "packageDependencies": [\
-          ["babel-plugin-styled-components", "virtual:4dc43ed16350a921963c57bb1d401c59c8e7a658387b95fc6ad4ae4985ee40cf66f3d0c345d71b88a559c8dda745ab8d4f13d4163b75e714232f8c12cfce3f12#npm:2.1.4"],\
+          ["babel-plugin-styled-components", "virtual:ec36a8dcc3406ce192d06e3ace03cdbda0bbbb2f7907f0dee644fbde4d4385ea1ea3287f16f7d1010d51daec0905afbb68b1088481e90431ca3435dc75d9ea31#npm:2.1.4"],\
           ["@babel/helper-annotate-as-pure", "npm:7.22.5"],\
           ["@babel/helper-module-imports", "npm:7.22.15"],\
-          ["@babel/plugin-syntax-jsx", "virtual:e1e03be15735fdbc8168627e7c153b5c8c7f6646e27bf547bd1be5e2aa2ca50de2ad959cd7edfe16bd2d7d0349a054867b85f72de2ac7a64a4db1a772154bfac#npm:7.23.3"],\
+          ["@babel/plugin-syntax-jsx", "virtual:9ab7abba17974f7af844c7ab82b883d4703911151240b74e3a289a83ffd283da64d42c554ae89a3cf8e67619776e066f6cbcd6bbf64c38b3190e67263864d359#npm:7.23.3"],\
           ["@types/styled-components", null],\
           ["lodash", "npm:4.17.21"],\
           ["picomatch", "npm:2.3.1"],\
-          ["styled-components", "virtual:490b7a3d4aff7edb804ed44137b1810a9c8e1d961bf25e806d5f6760d326fa065c8638fc02164f7ab01679af781a9a0aa34ab64161e109ad5b16432e58539bfa#npm:5.3.11"]\
+          ["styled-components", "virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11"]\
         ],\
         "packagePeers": [\
           "@types/styled-components",\
@@ -6647,10 +6710,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:490b7a3d4aff7edb804ed44137b1810a9c8e1d961bf25e806d5f6760d326fa065c8638fc02164f7ab01679af781a9a0aa34ab64161e109ad5b16432e58539bfa#npm:5.3.11", {\
-        "packageLocation": "./.yarn/__virtual__/styled-components-virtual-4dc43ed163/5/.yarn/berry/cache/styled-components-npm-5.3.11-d45616b9af-10c0.zip/node_modules/styled-components/",\
+      ["virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11", {\
+        "packageLocation": "./.yarn/__virtual__/styled-components-virtual-ec36a8dcc3/5/.yarn/berry/cache/styled-components-npm-5.3.11-d45616b9af-10c0.zip/node_modules/styled-components/",\
         "packageDependencies": [\
-          ["styled-components", "virtual:490b7a3d4aff7edb804ed44137b1810a9c8e1d961bf25e806d5f6760d326fa065c8638fc02164f7ab01679af781a9a0aa34ab64161e109ad5b16432e58539bfa#npm:5.3.11"],\
+          ["styled-components", "virtual:5053bdd20c986daaa3236cdfb5db05015a065af1ee5fa8541efccf9e9b5754dd8213647eba7b9b1e7dc9ec1798c8160f6d3ce99453ad97a5011868147d980b21#npm:5.3.11"],\
           ["@babel/helper-module-imports", "npm:7.22.15"],\
           ["@babel/traverse", "npm:7.23.3"],\
           ["@emotion/is-prop-valid", "npm:1.2.1"],\
@@ -6659,7 +6722,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", null],\
           ["@types/react-dom", null],\
           ["@types/react-is", null],\
-          ["babel-plugin-styled-components", "virtual:4dc43ed16350a921963c57bb1d401c59c8e7a658387b95fc6ad4ae4985ee40cf66f3d0c345d71b88a559c8dda745ab8d4f13d4163b75e714232f8c12cfce3f12#npm:2.1.4"],\
+          ["babel-plugin-styled-components", "virtual:ec36a8dcc3406ce192d06e3ace03cdbda0bbbb2f7907f0dee644fbde4d4385ea1ea3287f16f7d1010d51daec0905afbb68b1088481e90431ca3435dc75d9ea31#npm:2.1.4"],\
           ["css-to-react-native", "npm:3.2.0"],\
           ["hoist-non-react-statics", "npm:3.3.2"],\
           ["react", "npm:18.2.0"],\
@@ -7377,6 +7440,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["zuauth-example", "workspace:."],\
+          ["@pcd/eddsa-frog-pcd", "npm:0.0.1"],\
           ["@pcd/eddsa-ticket-pcd", "npm:0.3.0"],\
           ["@pcd/pcd-types", "npm:0.8.0"],\
           ["@pcd/semaphore-identity-pcd", "npm:0.8.0"],\

@@ -878,6 +878,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pcd/eddsa-frog-pcd@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@pcd/eddsa-frog-pcd@npm:0.0.1"
+  dependencies:
+    "@pcd/eddsa-pcd": "npm:0.2.2"
+    "@pcd/passport-ui": "npm:0.7.2"
+    "@pcd/pcd-types": "npm:0.7.2"
+    "@pcd/util": "npm:0.1.2"
+    chai: "npm:^4.3.7"
+    json-bigint: "npm:^1.0.0"
+    lodash: "npm:^4.17.21"
+    react: "npm:^18.2.0"
+    styled-components: "npm:^5.3.9"
+    uuid: "npm:^9.0.0"
+  checksum: 7e79d294bc57dba94fcb30bfaaaa80a1efa1fc982cc848ef1ac5759b24c7912aca689b5c9c0faf38fb301760c12e3c701e1dd5066abea2b947af3c27902d4526
+  languageName: node
+  linkType: hard
+
+"@pcd/eddsa-pcd@npm:0.2.2":
+  version: 0.2.2
+  resolution: "@pcd/eddsa-pcd@npm:0.2.2"
+  dependencies:
+    "@pcd/passport-ui": "npm:0.7.2"
+    "@pcd/pcd-types": "npm:0.7.2"
+    "@pcd/util": "npm:0.1.2"
+    chai: "npm:^4.3.7"
+    circomlibjs: "npm:^0.1.7"
+    react: "npm:^18.2.0"
+    styled-components: "npm:^5.3.9"
+    uuid: "npm:^9.0.0"
+  checksum: 78f64fd83fabb5347628a6f98ad0edc4921e8f57a2cd21a2ea8017647f78b98e390752ef5ae60cae1913e7cb6fe64daf717e3e0939d047e53610fa73093b5f8a
+  languageName: node
+  linkType: hard
+
 "@pcd/eddsa-pcd@npm:0.3.0":
   version: 0.3.0
   resolution: "@pcd/eddsa-pcd@npm:0.3.0"
@@ -912,6 +946,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pcd/passport-ui@npm:0.7.2":
+  version: 0.7.2
+  resolution: "@pcd/passport-ui@npm:0.7.2"
+  dependencies:
+    pako: "npm:^2.1.0"
+    qr-image: "npm:^3.2.0"
+    react: "npm:^18.2.0"
+    styled-components: "npm:^5.3.9"
+  checksum: 80ab72ddc54a00c24b9d9dcde04e7deb675ac0a3d18504e56306677fd05932a9833c5c7071653d70fd9abadcfbdc87ac30caa1e89861e13966e67524681e2130
+  languageName: node
+  linkType: hard
+
 "@pcd/passport-ui@npm:0.8.0":
   version: 0.8.0
   resolution: "@pcd/passport-ui@npm:0.8.0"
@@ -921,6 +967,13 @@ __metadata:
     react: "npm:^18.2.0"
     styled-components: "npm:^5.3.9"
   checksum: 31d132180702ce93ec6fe158fc9bc44a4d43b68aa1d094aa356a1f3496d63739508a1d0688f2d69f4ece6cfc5123ca0c2b13bb1bee7179ceb2c326ed4b8a89b5
+  languageName: node
+  linkType: hard
+
+"@pcd/pcd-types@npm:0.7.2":
+  version: 0.7.2
+  resolution: "@pcd/pcd-types@npm:0.7.2"
+  checksum: 2c916fee0fee4aaa080e6745d35e6381713dcb2a5af04ad18fd7056861d6d9129761cd1e6b99fe930bcf6af4dfdd268675a75a2187f1d8c76bb57d32599ac0ee
   languageName: node
   linkType: hard
 
@@ -963,6 +1016,17 @@ __metadata:
     styled-components: "npm:^5.3.9"
     uuid: "npm:^9.0.0"
   checksum: 2952f3c61f8c60b448a4ac9ab9a2c996a22a3e4ad0bbdfb26d4928917af5e95d81f5b73ce61bf0af3770f67ffd5234c5d764ed0f3322f2e5c61c872497e67502
+  languageName: node
+  linkType: hard
+
+"@pcd/util@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@pcd/util@npm:0.1.2"
+  dependencies:
+    chai: "npm:^4.3.7"
+    js-sha256: "npm:^0.10.1"
+    uuid: "npm:^9.0.0"
+  checksum: 48ee7c4674ebf5210ec355d7ac88e1fd44c38e791be8a3d4e4ba9c6cc605a937ad913c30177a19f6fb39a3d79627b940a2138027635f7941cf95d25475638b3c
   languageName: node
   linkType: hard
 
@@ -6182,6 +6246,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "zuauth-example@workspace:."
   dependencies:
+    "@pcd/eddsa-frog-pcd": "npm:^0.0.1"
     "@pcd/eddsa-ticket-pcd": "npm:^0.3.0"
     "@pcd/pcd-types": "npm:^0.8.0"
     "@pcd/semaphore-identity-pcd": "npm:^0.8.0"
